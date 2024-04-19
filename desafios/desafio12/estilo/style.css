@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(169, 255, 226);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+ padding-top: 50px;
+ font-variant: small-caps;
+ /*text-transform: uppercase;  - uma maneira de colocar letras maiusculas */
+
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+section > p {
+    padding-left: 25px;
+    line-height: 2em;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 350px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
